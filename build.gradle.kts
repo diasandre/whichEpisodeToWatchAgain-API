@@ -6,7 +6,7 @@ val kotlinVersion: String by project
 plugins {
     val kotlinVersion = "1.4.31"
 
-    id("org.springframework.boot") version "2.4.4"
+    id("org.springframework.boot") version "2.5.2"
     id("io.spring.dependency-management") version "1.0.11.RELEASE"
     kotlin("jvm") version kotlinVersion
     kotlin("plugin.spring") version kotlinVersion
